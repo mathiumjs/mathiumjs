@@ -1,8 +1,8 @@
 {
   "name": "mathiumjs",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Apply complex math and computational formulas and functions easily and without the hassle.",
-  "main": "src/main.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
