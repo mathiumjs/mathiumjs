@@ -1,0 +1,10 @@
+{
+  "docs": {
+    "Algebra": ["doc1", "doc2"],
+    "Trigonometry": ["doc3", "doc4"],
+    "Second Category": []
+  },
+  "docs-other": {
+    "First Category": []
+  }
+}
