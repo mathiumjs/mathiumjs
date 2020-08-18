@@ -6,6 +6,10 @@ Created by [@filippofonseca](https://twitter.com/FilippoFonseca) and [@markmusic
 
 ### Website: [mathiumjs.org](https://mathiumjs.org)
 
+## Why Mathium?
+
+Mathium provides an efficient, powerful, yet simple toolkit to construct powerful applications that require mathematical and computational functions and formulas in their codebase. It encourages simplicity, ease-of-use, and piece of mind, allowing developers to focus on what really matters. Mathium will provide a wide-array of mathematical and omputational-based frmulas to choose from, filled with endless adaptability and customizability.
+
 ## Get Started
 
 Ensure that you have the latest version of [Node](https://nodejs.org/en/) and [npm](https://npmjs.org) installed.
@@ -30,6 +34,6 @@ NOTE: The name `Mathium` after `* as` is arbitrary; it can be replaced with what
 import * as foo from "mathiumjs";
 ```
 
-## Why Mathium?
+## Learn More
 
-Mathium provides an efficient, powerful, yet simple toolkit to construct powerful applications that require mathematical and computational functions and formulas in their codebase. It encourages simplicity, ease-of-use, and piece of mind, allowing developers to focus on what really matters. Mathium will provide a wide-array of mathematical and omputational-based frmulas to choose from, filled with endless adaptability and customizability.
+Want to know more about the functions and different Mathium components you can use? Visit the Mathium [documentation] to learn more.
