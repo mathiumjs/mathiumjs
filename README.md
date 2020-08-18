@@ -18,8 +18,16 @@ npm i mathiumjs
 
 ### 2. Initialization
 
+At the top of your TypeScript file, import `mathiumjs`, as shown:
+
 ```ts
 import * as Mathium from "mathiumjs";
+```
+
+NOTE: The name `Mathium` after `as` is arbitrary; it can be replaced with whatever you'd like:
+
+```ts
+import * as foo from "mathiumjs";
 ```
 
 ## Why Mathium?
