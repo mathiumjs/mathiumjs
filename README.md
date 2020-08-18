@@ -24,7 +24,7 @@ At the top of your TypeScript file, import `mathiumjs`, as shown:
 import * as Mathium from "mathiumjs";
 ```
 
-NOTE: The name `Mathium` after `as` is arbitrary; it can be replaced with whatever you'd like:
+NOTE: The name `Mathium` after `* as` is arbitrary; it can be replaced with whatever you'd like:
 
 ```ts
 import * as foo from "mathiumjs";
