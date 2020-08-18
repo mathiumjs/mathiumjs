@@ -108,3 +108,24 @@ export function degToRad(degrees) {
 export function radToDeg(rad) {
   return rad / (Math.PI / 180);
 }
+
+// Circle Calculator
+function circleCalculator (radius, solveFor) {
+    let pi = 3.14159265359;
+
+    let solveForDiameter = () => radius * 2;
+    let solveForCircumference = () => 2 * pi * radius;
+    let solveForArea = () => pi * (radius * radius);
+  
+    switch (solveFor) {
+       case "circumference" :
+          return solveForCircumference();
+          break;
+       case "diameter" :
+          return solveForDiameter();
+          break;
+       case "area" :
+          return solveForArea();
+          break;
+   }
+}
