@@ -36,4 +36,4 @@ import * as foo from "mathiumjs";
 
 ## Learn More
 
-Want to know more about the functions and different Mathium components you can use? Visit the Mathium [documentation] to learn more.
+Want to know more about the functions and different Mathium components you can use? Visit the Mathium [mathiumjs.org](https://mathiumjs.org) to learn more.
