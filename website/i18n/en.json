@@ -15,8 +15,11 @@
       "doc4": {
         "title": "Cosine"
       },
+      "doc6": {
+        "title": "Getting Started"
+      },
       "doc5": {
-        "title": "Fifth Document"
+        "title": "Introduction"
       },
       "doc1": {
         "title": "Perfect Square Formula",
@@ -30,9 +33,8 @@
       "Blog": "Blog"
     },
     "categories": {
-      "Algebra": "Algebra",
-      "Trigonometry": "Trigonometry",
-      "Second Category": "Second Category",
+      "Getting Started": "Getting Started",
+      "Documentation": "Documentation",
       "First Category": "First Category"
     }
   },

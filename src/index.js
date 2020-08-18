@@ -110,22 +110,22 @@ export function radToDeg(rad) {
 }
 
 // Circle Calculator
-function circleCalculator (radius, solveFor) {
-    let pi = 3.14159265359;
+export function circleCalculator(radius, solveFor) {
+  let pi = 3.14159265359;
 
-    let solveForDiameter = () => radius * 2;
-    let solveForCircumference = () => 2 * pi * radius;
-    let solveForArea = () => pi * (radius * radius);
-  
-    switch (solveFor) {
-       case "circumference" :
-          return solveForCircumference();
-          break;
-       case "diameter" :
-          return solveForDiameter();
-          break;
-       case "area" :
-          return solveForArea();
-          break;
-   }
+  let solveForDiameter = () => radius * 2;
+  let solveForCircumference = () => 2 * pi * radius;
+  let solveForArea = () => pi * (radius * radius);
+
+  switch (solveFor) {
+    case "circumference":
+      return solveForCircumference();
+      break;
+    case "diameter":
+      return solveForDiameter();
+      break;
+    case "area":
+      return solveForArea();
+      break;
+  }
 }

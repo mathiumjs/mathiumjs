@@ -1,8 +1,7 @@
 {
   "docs": {
-    "Algebra": ["doc1", "doc2"],
-    "Trigonometry": ["doc3", "doc4"],
-    "Second Category": []
+    "Getting Started": ["doc5", "doc6"],
+    "Documentation": ["doc1", "doc2", "doc3", "doc4"]
   },
   "docs-other": {
     "First Category": []

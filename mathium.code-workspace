@@ -1,7 +1,13 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	]
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../fetchjson"
+    },
+    {
+      "path": "../Coding/Projects/chatbot"
+    }
+  ]
 }
