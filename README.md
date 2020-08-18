@@ -10,10 +10,16 @@ Created by [@filippofonseca](https://twitter.com/FilippoFonseca) and [@markmusic
 
 Ensure that you have the latest version of [Node](https://nodejs.org/en/) and [npm](https://npmjs.org) installed.
 
-### 1. Install with npm
+### 1. Installation with npm
 
 ```
 npm i mathiumjs
+```
+
+### 2. Initialization
+
+```ts
+import * as Mathium from "mathiumjs";
 ```
 
 ## Why Mathium?
