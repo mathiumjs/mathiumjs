@@ -4,7 +4,7 @@ Mathium is a functional JavaScript/TypeScript Node framework to apply complex ma
 
 Created by [@filippofonseca](https://twitter.com/FilippoFonseca) and [@markmusic2727](https://twitter.com/markmusic2727) | Sponsored and maintained with ❤️ by the [Zyndicate Team](https://www.zyndicate.app/)
 
-### Website: [mathiumjs.org](https://mathiumjs.org)
+### Official website: [mathiumjs.org](https://mathiumjs.org)
 
 ## Why Mathium?
 
