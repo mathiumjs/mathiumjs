@@ -1,4 +1,4 @@
-# Mathium Framework `1.1.1`
+# Mathium Framework `1.1.2`
 
 Mathium is a functional JavaScript framework to apply complex math and computational formulas easily and without the hassle.
 
