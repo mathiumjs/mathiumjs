@@ -1,0 +1,20 @@
+{
+  "unversionedId": "discord-server",
+  "id": "discord-server",
+  "isDocsHomePage": false,
+  "title": "📱  Discord Server",
+  "description": "Have any questions, doubts, comments, feedback, or just want to chat with like-minded individuals?",
+  "source": "@site/docs/discordserver.md",
+  "permalink": "/docs/discord-server",
+  "editUrl": "https://github.com/filippo-fonseca/mathiumjs/docs/discordserver.md",
+  "sidebar_label": "📱  Discord Server",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "🧠  Data & Statistics",
+    "permalink": "/docs/data"
+  },
+  "next": {
+    "title": "☁️  GitHub",
+    "permalink": "/docs/github-md"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "docsSidebars": {
+    "someSidebar": [
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Setup",
+        "items": [
+          {
+            "type": "link",
+            "label": "🙌  Mathium Framework",
+            "href": "/docs/"
+          },
+          {
+            "type": "link",
+            "label": "🚦  Getting Started",
+            "href": "/docs/getting-started"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Documentation",
+        "items": [
+          {
+            "type": "link",
+            "label": "🏠  Perfect Square Formula",
+            "href": "/docs/perfsquare"
+          },
+          {
+            "type": "link",
+            "label": "🏢  Difference of Squares",
+            "href": "/docs/diffofsquares"
+          },
+          {
+            "type": "link",
+            "label": "🚧 Sine",
+            "href": "/docs/sine"
+          },
+          {
+            "type": "link",
+            "label": "🌯  Cosine",
+            "href": "/docs/cosine"
+          },
+          {
+            "type": "link",
+            "label": "🍷  Tangent",
+            "href": "/docs/tangent"
+          },
+          {
+            "type": "link",
+            "label": "🛩  Number + Exponent",
+            "href": "/docs/number-exponent"
+          },
+          {
+            "type": "link",
+            "label": "🚜 Circles",
+            "href": "/docs/circcalc"
+          },
+          {
+            "type": "link",
+            "label": "🐊  Degrees to Radians",
+            "href": "/docs/degtorad"
+          },
+          {
+            "type": "link",
+            "label": "🦈 Radians to Degrees",
+            "href": "/docs/radtodeg"
+          },
+          {
+            "type": "link",
+            "label": "🧠  Data & Statistics",
+            "href": "/docs/data"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Resources",
+        "items": [
+          {
+            "type": "link",
+            "label": "📱  Discord Server",
+            "href": "/docs/discord-server"
+          },
+          {
+            "type": "link",
+            "label": "☁️  GitHub",
+            "href": "/docs/github-md"
+          }
+        ]
+      }
+    ]
+  },
+  "permalinkToSidebar": {
+    "/docs/": "someSidebar",
+    "/docs/circcalc": "someSidebar",
+    "/docs/cosine": "someSidebar",
+    "/docs/data": "someSidebar",
+    "/docs/degtorad": "someSidebar",
+    "/docs/diffofsquares": "someSidebar",
+    "/docs/discord-server": "someSidebar",
+    "/docs/getting-started": "someSidebar",
+    "/docs/github-md": "someSidebar",
+    "/docs/number-exponent": "someSidebar",
+    "/docs/perfsquare": "someSidebar",
+    "/docs/radtodeg": "someSidebar",
+    "/docs/sine": "someSidebar",
+    "/docs/tangent": "someSidebar"
+  },
+  "version": null
+}

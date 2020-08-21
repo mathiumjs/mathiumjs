@@ -1,0 +1,20 @@
+{
+  "unversionedId": "circcalc",
+  "id": "circcalc",
+  "isDocsHomePage": false,
+  "title": "🚜  Circles",
+  "description": "circleCalculator(radius, solveFor)",
+  "source": "@site/docs/circlecalc.md",
+  "permalink": "/docs/circcalc",
+  "editUrl": "https://github.com/filippo-fonseca/mathiumjs/docs/circlecalc.md",
+  "sidebar_label": "🚜 Circles",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "🛩  Number + Exponent",
+    "permalink": "/docs/number-exponent"
+  },
+  "next": {
+    "title": "🐊  Degrees to Radians",
+    "permalink": "/docs/degtorad"
+  }
+}

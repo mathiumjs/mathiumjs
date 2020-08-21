@@ -1,0 +1,19 @@
+{
+  "unversionedId": "radtodeg",
+  "id": "radtodeg",
+  "isDocsHomePage": false,
+  "title": "🦈 Radians to Degrees",
+  "description": "radToDeg(rad)",
+  "source": "@site/docs/radtodeg.md",
+  "permalink": "/docs/radtodeg",
+  "editUrl": "https://github.com/filippo-fonseca/mathiumjs/docs/radtodeg.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "🐊  Degrees to Radians",
+    "permalink": "/docs/degtorad"
+  },
+  "next": {
+    "title": "🧠  Data & Statistics",
+    "permalink": "/docs/data"
+  }
+}

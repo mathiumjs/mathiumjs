@@ -1,0 +1,19 @@
+{
+  "unversionedId": "cosine",
+  "id": "cosine",
+  "isDocsHomePage": false,
+  "title": "🌯  Cosine",
+  "description": "findCosine(adj, hypotenuse)",
+  "source": "@site/docs/cosine.md",
+  "permalink": "/docs/cosine",
+  "editUrl": "https://github.com/filippo-fonseca/mathiumjs/docs/cosine.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "🚧 Sine",
+    "permalink": "/docs/sine"
+  },
+  "next": {
+    "title": "🍷  Tangent",
+    "permalink": "/docs/tangent"
+  }
+}

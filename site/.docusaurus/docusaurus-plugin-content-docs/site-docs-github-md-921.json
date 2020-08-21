@@ -1,0 +1,16 @@
+{
+  "unversionedId": "github-md",
+  "id": "github-md",
+  "isDocsHomePage": false,
+  "title": "☁️  GitHub",
+  "description": "Want to clone the repo into your local machine to make a contribution to the framework? What about customizing the framework to your needs, implementing it in your code, and perhaps even sharing it with others by creating a pull request?",
+  "source": "@site/docs/github.md",
+  "permalink": "/docs/github-md",
+  "editUrl": "https://github.com/filippo-fonseca/mathiumjs/docs/github.md",
+  "sidebar_label": "☁️  GitHub",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "📱  Discord Server",
+    "permalink": "/docs/discord-server"
+  }
+}
