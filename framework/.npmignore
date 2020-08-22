@@ -1,0 +1,17 @@
+#ignore modules and folder
+node_modules
+types
+
+#ignore json files when publishin to npm
+package-lock.json
+tsconfig.json
+
+#ignore docker when publishing to npm
+Dockerfile
+docker-compose.yml
+
+#remove old folder
+src
+
+#remove from npm package since its not needed
+mathium.code-workspace
