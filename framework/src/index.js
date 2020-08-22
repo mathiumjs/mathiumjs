@@ -156,8 +156,7 @@ export function statisticCall(array, solveFor) {
   // Find Median
 
   let findMedian = () => {
-                medianP1 = (arrayInOrder.length + 1) / 2;
-                let medianP1 = 0;
+    let medianP1 = 0;
 
     //If this doesnt work, make arrayInOrder a local variable and declare it here
 
