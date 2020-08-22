@@ -9,15 +9,17 @@ sidebar_label: 🧠  Data & Statistics
 In order to implement the circle calculator formula in our code with Mathium, we must call the function using Mathium's API, as such:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
+
 let formula = Mathium.dataStatCall(dataArray, solveFor);
 ```
 
-NOTE: The name `Mathium` after `* as` is arbitrary; it can be replaced with whatever you'd like:
+NOTE: The name `Mathium` after `import` is arbitrary; it can be replaced with whatever you'd like:
 
 ```ts
-import * as foo from "mathiumjs";
-let formula = foo.dataStatCall(dataArray, solveFor);
+import Foo from "mathiumjs";
+
+let formula = Foo.dataStatCall(dataArray, solveFor);
 ```
 
 ## Concept
@@ -49,7 +51,8 @@ When applying the `dataStatCall`, the result would be the following:
 When used in our code, we can make it look like the following:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
+
 function dataStats(dataArray, solveFor) {
   let formula = Mathium.dataStatCall(dataArray, solveFor);
   return formula;
@@ -75,7 +78,8 @@ When applying the `dataStatCall`, the result would be the following:
 When used in our code, we can make it look like the following:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
+
 function dataStats(dataArray, solveFor) {
   let formula = Mathium.dataStatCall(dataArray, solveFor);
   return formula;

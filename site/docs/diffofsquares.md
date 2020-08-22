@@ -9,15 +9,15 @@ sidebar_label: 🏢  Difference of Squares
 In order to implement the difference of squares formula in our code with Mathium, we must call the function using Mathium's API, as such:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
 
 let formula = Mathium.diffOfSquares(term1, term2);
 ```
 
-NOTE: The name `Mathium` after `* as` is arbitrary; it can be replaced with whatever you'd like:
+NOTE: The name `Mathium` after `import` is arbitrary; it can be replaced with whatever you'd like:
 
 ```ts
-import * as foo from "mathiumjs";
+import Foo from "mathiumjs";
 
 let formula = foo.diffOfSquares(term1, term2);
 ```
@@ -60,7 +60,7 @@ When applying the Perfect Square Formula, the result would be the following:
 When used in our code, we can make it look like the following:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
 
 function findDiffOfSquares(term1, term2) {
   let formula = Mathium.diffOfSquares(term1, term2);
@@ -88,7 +88,7 @@ When applying the Perfect Square Formula, the result would be the following:
 When used in our code, we can make it look like the following:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
 
 function findDiffOfSquares(term1, term2) {
   let formula = Mathium.diffOfSquares(term1, term2);
@@ -112,7 +112,7 @@ When applying the Perfect Square Formula, the result would be the following:
 When used in our code, we can make it look like the following:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
 
 function findDiffOfSquares(term1, term2) {
   let formula = Mathium.diffOfSquares(term1, term2);

@@ -9,17 +9,17 @@ sidebar_label: 🚜 Circles
 In order to implement the various circle-related formulas in our code with Mathium, we must call the function using Mathium's API, as such:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
 
 let formula = Mathium.circleCalculator(radius, solveFor);
 ```
 
-NOTE: The name `Mathium` after `* as` is arbitrary; it can be replaced with whatever you'd like:
+NOTE: The name `Mathium` after `import` is arbitrary; it can be replaced with whatever you'd like:
 
 ```ts
-import * as foo from "mathiumjs";
+import Foo from "mathiumjs";
 
-let formula = foo.circleCalculator(radius, solveFor);
+let formula = Foo.circleCalculator(radius, solveFor);
 ```
 
 ## Concept
@@ -58,13 +58,14 @@ d = 16
 When used in our code, we can make it look like the following:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
+
 function circleFunction(radius, solveFor) {
   let formula = Mathium.circleCalculator(radius, solveFor);
   return formula;
 }
 // Test the function
-console.log(findPerfSquare(8, "diameter"));
+console.log(circleFunction(8, "diameter"));
 ```
 
 **CODE ANALYSIS:** First, we are importing the Mathium framework at the top of the file, the we are defining the function `circleFunction()` with two parameters: `radius`, and `solveFor`.
@@ -85,13 +86,14 @@ C = 2663.38
 When used in our code, we can make it look like the following:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
+
 function circleFunction(radius, solveFor) {
   let formula = Mathium.circleCalculator(radius, solveFor);
   return formula;
 }
 // Test the function
-console.log(findPerfSquare(423.89, "circumference"));
+console.log(circleFunction(423.89, "circumference"));
 ```
 
 ## Example 3: Solve for area with a radius of 2.8562
@@ -107,13 +109,14 @@ a = 25.63
 When used in our code, we can make it look like the following:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
+
 function circleFunction(radius, solveFor) {
   let formula = Mathium.circleCalculator(radius, solveFor);
   return formula;
 }
 // Test the function
-console.log(findPerfSquare(423.89, "area"));
+console.log(circleFunction(423.89, "area"));
 ```
 
 REMEMBER: These are just examples. Feel free to take this function (and any other one that we offer) and customize them to your heart's desire.
