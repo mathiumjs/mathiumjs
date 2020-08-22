@@ -1,6 +1,6 @@
 {
   "name": "mathiumjs",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Apply complex math and computational formulas and functions easily and without the hassle.",
   "main": "src/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/filippo-fonseca/mathiumjs.git"
+    "url": "git+https://github.com/mathiumjs/mathiumjs.git"
   },
   "keywords": [
     "math",
@@ -18,7 +18,7 @@
   "author": "Filippo Fonseca and Mark Music<filifonsecacagnazzo@gmail.com> (https://www.zyndicate.app/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/filippo-fonseca/mathiumjs#issues"
+    "url": "https://github.com/mathiumjs/mathiumjs#issues"
   },
-  "homepage": "https://github.com/filippo-fonseca/mathiumjs#readme"
+  "homepage": "https://mathiumjs.surge.sh/"
 }
