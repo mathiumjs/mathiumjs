@@ -1,0 +1,5 @@
+#prevents from node_modules from going with commit
+node_modules
+
+#not needed since came from filippo
+mathium.code-workspace
