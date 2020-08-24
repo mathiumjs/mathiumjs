@@ -11,6 +11,7 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./methods"), exports);
+const exponentSub = ["\u2070", "\u00b9", "\u00b2", "\u00b3", "\u2074", "\u2075", "\u2076", "\u2077", "\u2078", "\u2079"];
 exports.default = new (class MathiumJS {
     constructor() {
         if (!(this instanceof MathiumJS)) {
@@ -28,8 +29,8 @@ exports.default = new (class MathiumJS {
         let unsquaredTerm1 = `(${term1})`;
         let unsquaredTerm2 = `(${term2})`;
         let convertedMidTerm = `2${unsquaredTerm1 + unsquaredTerm2}`;
-        let convertedTerm1 = `(${term1}^2)`;
-        let convertedTerm2 = `(${term2}^2)`;
+        let convertedTerm1 = `(${term1}${exponentSub[2]})`;
+        let convertedTerm2 = `(${term2}${exponentSub[2]})`;
         const wholeEquation = `${convertedTerm1} ${operation} ${convertedMidTerm} ${operation} ${convertedTerm2}`;
     }
     /**
@@ -54,14 +55,14 @@ exports.default = new (class MathiumJS {
             return squaredTerm1 + " - " + squaredTerm2;
         }
         else if (typeof term1 == "string" && typeof term2 == "number") {
-            return (stringedTerm1 = term1 + "^2");
+            return (stringedTerm1 = term1 + exponentSub[2]);
         }
         else if (typeof term2 == "string" && typeof term1 == "number") {
-            return (stringedTerm2 = term2 + "^2");
+            return (stringedTerm2 = term2 + exponentSub[2]);
         }
         else if (typeof term1 == "string" && typeof term2 == "string") {
-            stringedTerm1 = term1 + "^2";
-            stringedTerm2 = term2 + "^2";
+            stringedTerm1 = term1 + exponentSub[2];
+            stringedTerm2 = term2 + exponentSub[2];
             return stringedTerm1 + " - " + stringedTerm2;
         }
         else if (Number.isInteger(term1) && Number.isInteger(term2)) {
@@ -225,6 +226,10 @@ exports.default = new (class MathiumJS {
                 return findStandardDeviation();
                 break;
         }
+    }
+    significantFigures(number) {
+        let numArray = number.toString().split('');
+        return numArray;
     }
 });
 //# sourceMappingURL=index.js.map
