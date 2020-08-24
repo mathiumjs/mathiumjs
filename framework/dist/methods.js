@@ -47,14 +47,14 @@ exports.diffOfSquares = (term1, term2) => {
         return squaredTerm1 + " - " + squaredTerm2;
     }
     else if (typeof term1 == "string" && typeof term2 == "number") {
-        return (stringedTerm1 = term1 + "^2");
+        return (stringedTerm1 = term1 + exponentSub[2]);
     }
     else if (typeof term2 == "string" && typeof term1 == "number") {
-        return (stringedTerm2 = term2 + "^2");
+        return (stringedTerm2 = term2 + exponentSub[2]);
     }
     else if (typeof term1 == "string" && typeof term2 == "string") {
-        stringedTerm1 = term1 + "^2";
-        stringedTerm2 = term2 + "^2";
+        stringedTerm1 = term1 + exponentSub[2];
+        stringedTerm2 = term2 + exponentSub[2];
         return stringedTerm1 + " - " + stringedTerm2;
     }
     else if (Number.isInteger(term1) && Number.isInteger(term2)) {
@@ -73,8 +73,8 @@ exports.perfectSquare = (term1, term2, operation) => {
     let unsquaredTerm1 = `(${term1})`;
     let unsquaredTerm2 = `(${term2})`;
     let convertedMidTerm = `2${unsquaredTerm1 + unsquaredTerm2}`;
-    let convertedTerm1 = `(${term1}^2)`;
-    let convertedTerm2 = `(${term2}^2)`;
+    let convertedTerm1 = `(${term1}${exponentSub[2]})`;
+    let convertedTerm2 = `(${term2}${exponentSub[2]})`;
     const wholeEquation = `${convertedTerm1} ${operation} ${convertedMidTerm} ${operation} ${convertedTerm2}`;
 };
 exports.findMean = (inputArray) => {

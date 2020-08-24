@@ -46,5 +46,6 @@ declare const _default: {
      */
     circleCalculator(radius: number, solveFor: "diameter" | "circumference" | "area"): number;
     statisticCall(arr: number[], solveFor: "mean" | "median" | "mode" | "range" | "standard deviation"): number | undefined;
+    significantFigures(number: number): string[];
 };
 export default _default;
