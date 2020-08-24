@@ -8,17 +8,17 @@ title: 🦈 Radians to Degrees
 In order to implement the degrees to radians formula in our code with Mathium, we must call the function using Mathium's API, as such:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
 
 let formula = Mathium.radToDeg(rad);
 ```
 
-NOTE: The name Mathium after \* as is arbitrary; it can be replaced with whatever you'd like:
+NOTE: The name Mathium after `import` as is arbitrary; it can be replaced with whatever you'd like:
 
 ```ts
-import * as foo from "mathiumjs";
+import Foo from "mathiumjs";
 
-let formula = foo.degToRad(rad);
+let formula = Foo.degToRad(rad);
 ```
 
 ## Concept
@@ -40,7 +40,7 @@ In our Mathium code, it's important to note the following:
 When used in our code, we can make it look like the following:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
 
 function radToDeg(rad) {
   let formula = Mathium.radToDeg(rad);
@@ -58,7 +58,7 @@ This function will return `515.66201562°` radians as the answer.
 When used in our code, we can make it look like the following:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
 
 function radToDeg(rad) {
   let formula = Mathium.radToDeg(rad);

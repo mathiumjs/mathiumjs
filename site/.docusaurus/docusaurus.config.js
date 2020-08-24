@@ -22,7 +22,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/filippo-fonseca/mathiumjs",
+          "href": "https://github.com/mathiumjs/mathiumjs",
           "label": "GitHub",
           "position": "right"
         }
@@ -54,7 +54,7 @@ export default {
             },
             {
               "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "href": "https://discord.gg/bTPKpqm"
             },
             {
               "label": "Twitter",
@@ -71,7 +71,7 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/filippo-fonseca/mathiumjs"
+              "href": "https://github.com/mathiumjs/mathiumjs"
             }
           ]
         }
@@ -96,7 +96,7 @@ export default {
       {
         "docs": {
           "homePageId": "doc1",
-          "sidebarPath": "/Users/filippofonseca/Desktop/Developer/mathium-framework/site/sidebars.js",
+          "sidebarPath": "/Users/filippofonseca/Desktop/Developer/mathium-framework/1.2.0/mathiumjs/site/sidebars.js",
           "editUrl": "https://github.com/filippo-fonseca/mathiumjs"
         },
         "blog": {
@@ -104,7 +104,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/"
         },
         "theme": {
-          "customCss": "/Users/filippofonseca/Desktop/Developer/mathium-framework/site/src/css/custom.css"
+          "customCss": "/Users/filippofonseca/Desktop/Developer/mathium-framework/1.2.0/mathiumjs/site/src/css/custom.css"
         }
       }
     ]

@@ -8,7 +8,7 @@ title: 🍷  Tangent
 In order to implement tangent in our code with Mathium, we must call the function using Mathium's API, as such:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
 
 let formula = Mathium.findTangent(opp, adj);
 ```
@@ -16,9 +16,9 @@ let formula = Mathium.findTangent(opp, adj);
 NOTE: The name Mathium after \* as is arbitrary; it can be replaced with whatever you'd like:
 
 ```ts
-import * as foo from "mathiumjs";
+import Foo from "mathiumjs";
 
-let formula = foo.findTangent(opp, adj);
+let formula = Foo.findTangent(opp, adj);
 ```
 
 ## Concept
@@ -45,7 +45,7 @@ In our Mathium code, it's important to note the following:
 When used in our code, we can make it look like the following:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
 
 function tangentCalc(opp, adj) {
   let formula = Mathium.findTangent(opp, adjacent);
@@ -61,7 +61,7 @@ console.log(tangentCalc(3.2, 6.5));
 When used in our code, we can make it look like the following:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
 
 function tangentCalc(opp, adj) {
   let formula = Mathium.findTangent(opp, adjacent);

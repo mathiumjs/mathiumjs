@@ -8,15 +8,15 @@ title: 🛩  Number + Exponent
 In order to implement the `numberToThePowerOf(number, exponent)` function in our code with Mathium, we must call the function using Mathium's API, as such:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
 
 let formula = Mathium.numberToThePowerOf(number, exponent);
 ```
 
-NOTE: The name Mathium after \* as is arbitrary; it can be replaced with whatever you'd like:
+NOTE: The name Mathium after `import` as is arbitrary; it can be replaced with whatever you'd like:
 
 ```ts
-import * as foo from "mathiumjs";
+import Mathium from "mathiumjs";
 
 let formula = foo.numberToThePowerOf(opp, adj);
 ```

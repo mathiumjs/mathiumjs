@@ -9,7 +9,7 @@ sidebar_label: 🏠  Perfect Square Formula
 In order to implement the perfect square formula in our code with Mathium, we must call the function using Mathium's API, as such:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
 
 let formula = Mathium.perfectSquare(term1, operation, term2);
 ```
@@ -17,9 +17,9 @@ let formula = Mathium.perfectSquare(term1, operation, term2);
 NOTE: The name `Mathium` after `* as` is arbitrary; it can be replaced with whatever you'd like:
 
 ```ts
-import * as foo from "mathiumjs";
+import Foo from "mathiumjs";
 
-let formula = foo.perfectSquare(term1, operation, term2);
+let formula = Foo.perfectSquare(term1, operation, term2);
 ```
 
 ## Concept
@@ -63,7 +63,7 @@ When applying the Perfect Square Formula, the result would be the following:
 When used in our code, we can make it look like the following:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
 
 function findPerfSquare(term1, operation, term2) {
   let formula = Mathium.perfectSquare(term1, operation, term2);
@@ -99,7 +99,7 @@ When applying the Perfect Square Formula, the result would be the following:
 When applying it to our code, the result would be the following:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
 
 function findPerfSquare(term1, operation, term2) {
   let formula = Mathium.perfectSquare(term1, operation, term2);
@@ -122,7 +122,7 @@ When applying the Perfect Square Formula, the result could be the following:
 With Mathium, the code for this particular exercise could be the following:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
 
 function findPerfSquare(term1, operation, term2) {
   let formula = Mathium.perfectSquare(term1, operation, term2);
