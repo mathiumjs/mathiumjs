@@ -21,8 +21,8 @@ export const radToDeg: Function = (rad: number) => {
   return rad / (Math.PI / 180);
 };
 
-export const findTangent: Function = (opp: number) => {
-  return Math.tan(opp);
+export const findTangent: Function = (opp: number, adj: number) => {
+  return Math.tan(opp) * adj;
 };
 
 export const findCosine: Function = (adj: number, hypotenuse: number) => {

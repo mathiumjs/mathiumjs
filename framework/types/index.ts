@@ -96,8 +96,8 @@ export default new (class MathiumJS {
      * 
      * @param opp A numeric expression that contains an angle measured in radians.
      */
-    public findTangent(opp: number) {
-        return Math.tan(opp)
+    public findTangent(opp: number, adj: number) {
+        return Math.tan(opp) * adj;
     }
 
     //Degress to Radian

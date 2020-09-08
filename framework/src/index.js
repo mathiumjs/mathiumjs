@@ -187,10 +187,7 @@ export function statisticCall(array, solveFor) {
     }
   };
 
-  // Find Median
-
   // Find Mode
-
   let findMode = () => {
     for (let j = 0; j < arrayInOrder.length; j++) {
       let num1 = arrayInOrder[j]; // low val
