@@ -78,8 +78,17 @@ export default new (class MathiumJS {
      * 
      * @param adj 
      */
-    public findCosine(adj: number) {
-        return Math.cos(adj)
+    public findCosine(adj: number, hypotenuse: number) {
+        return Math.cos(adj) * hypotenuse;
+    }
+
+    /**
+     * 
+     * @param opp 
+     * @param hypotenuse 
+     */
+    public findSine(opp: number, hypotenuse: number) {
+        return Math.sin(opp) * hypotenuse;
     }
 
     //Tangent
@@ -230,9 +239,5 @@ export default new (class MathiumJS {
                 break;
         }
     }
-
-    public significantFigures(number: number) {
-        let numArray = number.toString().split('');
-        return numArray
-    }
+    
 });

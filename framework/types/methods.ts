@@ -25,12 +25,12 @@ export const findTangent: Function = (opp: number) => {
   return Math.tan(opp);
 };
 
-export const findCosine: Function = (adj: number) => {
-  return Math.cos(adj)
+export const findCosine: Function = (adj: number, hypotenuse: number) => {
+  return Math.cos(adj) * hypotenuse;
 };
 
-export const findSine: Function = (opp: number) => {
-  return Math.cos(opp)
+export const findSine: Function = (opp: number, hypotenuse: number) => {
+  return Math.cos(opp) * hypotenuse;
 }
 
 export const numberToThePowerOf: Function = (integer: number, exponent: number) => {
