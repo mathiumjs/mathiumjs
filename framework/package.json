@@ -1,10 +1,12 @@
 {
   "name": "mathiumjs",
-  "version": "1.2.0",
+  "version": "1.2.4", 
   "description": "Apply complex math and computational formulas and functions easily and without the hassle.",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "cleanup": "rm -rf dist && yarn build"
   },
   "repository": {
     "type": "git",

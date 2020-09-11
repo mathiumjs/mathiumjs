@@ -1,6 +1,21 @@
 // Perfect Square Formula
 export * from "./mathiumjs";
 
+// |=========================================|
+// |                                         |
+// |       NOT IN USE - OLD FILE             |
+// |       NOT IN USE - OLD FILE             |
+// |       NOT IN USE - OLD FILE             |
+// |       NOT IN USE - OLD FILE             |
+// |       NOT IN USE - OLD FILE             |
+// |       NOT IN USE - OLD FILE             |
+// |       NOT IN USE - OLD FILE             |
+// |       NOT IN USE - OLD FILE             |
+// |       NOT IN USE - OLD FILE             |
+// |                                         |
+// |=========================================|
+
+
 export function perfectSquare(term1, operation, term2) {
   unsquaredTerm1 = "(" + term1 + ")";
   unsquaredTerm2 = "(" + term2 + ")";
@@ -172,10 +187,7 @@ export function statisticCall(array, solveFor) {
     }
   };
 
-  // Find Median
-
   // Find Mode
-
   let findMode = () => {
     for (let j = 0; j < arrayInOrder.length; j++) {
       let num1 = arrayInOrder[j]; // low val

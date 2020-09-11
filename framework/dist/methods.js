@@ -21,11 +21,11 @@ exports.radToDeg = (rad) => {
 exports.findTangent = (opp) => {
     return Math.tan(opp);
 };
-exports.findCosine = (adj) => {
-    return Math.cos(adj);
+exports.findCosine = (adj, hypotenuse) => {
+    return Math.cos(adj) * hypotenuse;
 };
-exports.findSine = (opp) => {
-    return Math.cos(opp);
+exports.findSine = (opp, hypotenuse) => {
+    return Math.cos(opp) * hypotenuse;
 };
 exports.numberToThePowerOf = (integer, exponent) => {
     return Math.pow(integer, exponent);

@@ -23,7 +23,13 @@ declare const _default: {
      *
      * @param adj
      */
-    findCosine(adj: number): number;
+    findCosine(adj: number, hypotenuse: number): number;
+    /**
+     *
+     * @param opp
+     * @param hypotenuse
+     */
+    findSine(opp: number, hypotenuse: number): number;
     /**
      *
      * @param opp A numeric expression that contains an angle measured in radians.
@@ -46,6 +52,5 @@ declare const _default: {
      */
     circleCalculator(radius: number, solveFor: "diameter" | "circumference" | "area"): number;
     statisticCall(arr: number[], solveFor: "mean" | "median" | "mode" | "range" | "standard deviation"): number | undefined;
-    significantFigures(number: number): string[];
 };
 export default _default;
