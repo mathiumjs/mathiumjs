@@ -8,17 +8,17 @@ title: 🌯  Cosine
 In order to implement cosine in our code with Mathium, we must call the function using Mathium's API, as such:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
 
 let formula = Mathium.findCosine(adj, hypotenuse);
 ```
 
-NOTE: The name Mathium after \* as is arbitrary; it can be replaced with whatever you'd like:
+NOTE: The name Mathium after `import` as is arbitrary; it can be replaced with whatever you'd like:
 
 ```ts
-import * as foo from "mathiumjs";
+import Foo from "mathiumjs";
 
-let formula = foo.findCosine(adj, hypotenuse);
+let formula = Foo.findCosine(adj, hypotenuse);
 ```
 
 ## Concept
@@ -45,7 +45,7 @@ Let's look at a couple examples to illustrate what cosine really looks like in r
 When used in our code, we can make it look like the following:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
 
 function cosineCalc(adj, hypotenuse) {
   let formula = Mathium.findCosine(adj, hypotenuse);
@@ -61,7 +61,7 @@ console.log(cosineCalc(4.3, 7.8));
 When used in our code, we can make it look like the following:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
 
 function cosineCalc(adj, hypotenuse) {
   let formula = Mathium.findCosine(adj, hypotenuse);

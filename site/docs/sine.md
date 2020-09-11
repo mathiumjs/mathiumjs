@@ -8,17 +8,17 @@ title: 🚧 Sine
 In order to implement sine in our code with Mathium, we must call the function using Mathium's API, as such:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
 
 let formula = Mathium.findSine(opp, hypotenuse);
 ```
 
-NOTE: The name `Mathium` after `* as` is arbitrary; it can be replaced with whatever you'd like:
+NOTE: The name `Mathium` after `import` is arbitrary; it can be replaced with whatever you'd like:
 
 ```ts
-import * as foo from "mathiumjs";
+import Foo from "mathiumjs";
 
-let formula = foo.findSine(opp, hypotenuse);
+let formula = Foo.findSine(opp, hypotenuse);
 ```
 
 ## Concept
@@ -63,7 +63,7 @@ sin(35) = 0.57...
 When used in our code, we can make it look like the following:
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
 
 function sineCalc(opp, hypotenuse) {
   let formula = Mathium.sineCalc(opp, hypotenuse);
@@ -93,7 +93,7 @@ sin(39) = 0.629
 ```
 
 ```ts
-import * as Mathium from "mathiumjs";
+import Mathium from "mathiumjs";
 
 function sineCalc(opp, hypotenuse) {
   let formula = Mathium.sineCalc(opp, hypotenuse);

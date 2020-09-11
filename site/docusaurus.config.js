@@ -23,7 +23,7 @@ module.exports = {
           position: "left",
         },
         {
-          href: "https://github.com/filippo-fonseca/mathiumjs",
+          href: "https://github.com/mathiumjs/mathiumjs",
           label: "GitHub",
           position: "right",
         },
@@ -54,7 +54,7 @@ module.exports = {
             },
             {
               label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              href: "https://discord.gg/bTPKpqm",
             },
             {
               label: "Twitter",
@@ -71,7 +71,7 @@ module.exports = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/filippo-fonseca/mathiumjs",
+              href: "https://github.com/mathiumjs/mathiumjs",
             },
           ],
         },
