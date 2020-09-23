@@ -1,5 +1,9 @@
-#prevents from node_modules from going with commit
 node_modules
 
-#not needed since came from filippo
-mathium.code-workspace
+#random macos file - not needed for dev
+.DS_Store
+
+package-lock.json
+
+#we love yarn 
+yarn.lock

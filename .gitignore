@@ -1,0 +1,9 @@
+node_modules
+
+#random macos file - not needed for dev
+.DS_Store
+
+package-lock.json
+
+#we love yarn 
+yarn.lock
