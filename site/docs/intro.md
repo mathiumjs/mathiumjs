@@ -3,7 +3,7 @@ id: doc1
 title: 🙌  Mathium Framework
 ---
 
-## Introduction - Mathium `1.1.2`
+## Introduction - Mathium `1.2.4`
 
 Mathium is a functional JavaScript/TypeScript Node framework to apply complex math and computational formulas easily and without the hassle.
 

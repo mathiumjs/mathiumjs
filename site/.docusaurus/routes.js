@@ -8,11 +8,6 @@ export default [
   exact: true,
 },
 {
-  path: '/__docusaurus/debug',
-  component: ComponentCreator('/__docusaurus/debug','fdd'),
-  exact: true,
-},
-{
   path: '/blog',
   component: ComponentCreator('/blog','728'),
   exact: true,
